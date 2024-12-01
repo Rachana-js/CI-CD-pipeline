@@ -16,7 +16,7 @@ resource "aws_instance" "instance-1" {
 }
 
 
-resource "aws_instance" "instance-1" {
+resource "aws_instance" "instance-2" {
   ami                         = "ami-0614680123427b75e"
   instance_type               = "t2.micro"
   security_groups             = [default]
