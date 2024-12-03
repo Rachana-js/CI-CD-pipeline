@@ -12,6 +12,9 @@ resource "aws_instance" "instance-1" {
   associate_public_ip_address = true
   user_data                   = file("docker.sh")
   tags = {
-    Name = "k8-server"
+
+
+    Name = "micro-k8s"
+
   }
 }
