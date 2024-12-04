@@ -1,0 +1,13 @@
+Fruit : Apple
+vegitable : carrot
+Alchol : 
+brands:
+  Beer:
+    -Kingfisher : 4%
+    Tuborg: 5%
+  hotdrinks:
+    -Jhonywalker : 45%
+    Blacklabel : 40%
+    oldmonk: 34%
+  wines :
+    -Port wine gold: 6%
