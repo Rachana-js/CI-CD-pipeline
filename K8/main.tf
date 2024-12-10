@@ -18,3 +18,7 @@ resource "aws_instance" "instance-1" {
 
   }
 }
+
+output "public_ip" {
+  value = aws_instance.instance-1.public_ip
+}
